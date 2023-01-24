@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>World Cup 2022</title>
+</head>
+<body>
+<header>    <!-- ------------------------------------------------------------volet1 -- ------------------------------------- -->
+    <nav > 
+     <img class="logo" src="image/worldcup.png"> </img><!-- ------------------------------------logo de site-------------------------->
+    
+    <ul class="menu"><!-------------------------------------- menu de volet 1-------------------------->
+       <li  ><a  id="acc"> Accueil  </a></li>
+       <li ><a  id="groupes"> Groupes </a>
+          <ul  class="sousmenu"><!--sous menu -->
+            <li><a  onclick="a()" id="groupe a">Groupe A</a></li>
+            <li><a    onclick="b()" id=" groupe b ">Groupe B</a></li>
+           
+          </ul>
+    </li>
+       <li  ><a href="#Les Matches "> Matches</a></li>
+       <li  ><a  href="#cl5" onclick="cls5()" > Classement</a></li>
+       <li  ><a onclick="actualite()"> Actualité</a></li>
+       <li ><a href="histoire.html" target="_blank"> Histoire</a></li><!--------------ouvrire nouvelle page qui contiel histoire de world cup-->
+    </ul>
+    <marquee class="mrq"><!--------------------------animation de publicité-------------------------->
+      
+      <a href="https://www.adidas.fr/" target="_blank" ><img src="image/adidas.jpeg" ></a>
+       <a href="https://www.visa.fr/" target="_blank" ><img src="image/visa.png" ></a>
+       <a href="https://www.coca-cola.com/" target="_blank" ><img src="image/cocacola.png" ></a>
+       <a href="https://www.emirates.com/ma/french/" target="_blank" ><img src="image/airway.png" ></a>
+       <a href="https://www.kia.com/ma/main.html" target="_blank" ><img src="image/kia.png" ></a>
+       
+</marquee>
+
+    </nav>
+
+</header>
+<div id="background"><!-------------------------- image de background de l'accueil----->
+    <img src="image/image0.jpeg" >
+</div>
+
+<div id="bg"><!-------------------------- image de background devolet 2 et actualite pour eviter l'espace vide ----->
+<img src="image/man.jpeg">
+</div>
+       <!--------------------------------------------------------------volet 2-------------------------------------------------------------->
+    <div id="volet2" >
+       <div id="grp a">
+        <ul>
+            <li class="titre" >Group A </li>
+            <li onclick="maroc()"> <img src="image/flag maroc.png"> <br>Maroc</li>
+            <li onclick="canada()">  <img src="image/flag canada.png"> <br>Canada</li>
+            <li onclick="belgique()">  <img src="image/flag belg.png"> <br>Belgique</li>
+            <li onclick="croatie()">   <img src="image/drp croitia.png"> <br>Croatie</li>
+        </ul>
+
+       </div >
+
+        <div id="grp b">
+         <ul>
+            <li  class="titre">Group B</li>
+            <li><img src="image/flag france.png" > <br>France</li>
+            <li><img src="image/flag s.png" ><br>Australie</li>
+            <li> <img src="image/flag danmark.jpeg"><br>Danemark </li>
+            <li> <img src="image/flag tunisie.png" > <br>Tunisie</li>
+         </ul>
+        </div>
+       
+
+       
+    
+    </div>
+    <!-- ------------------------------------------------volet3 ------------------------------------------>
+<div  id="volet3">
+    <!------------------------------------------Image de volet 3 cliquable qui affiche la fiche technique de chaque joueur---------------------->
+        <!-- image maps-->
+     
+                          <!--GROUPE A-->
+                            <!--Maroc-->
+ <div id="maroc" >
+     <img  class="image" usemap="#maroc" src="image/maroc.jpg" alt="lineup de football"/>
+        <map name="maroc" >
+      <!--1-->
+     <area shape="rect" coords="56,265,69,38"   onclick="ft1()">
+      <!--3-->
+     <area shape="rect" coords="273,144,75,36"  onclick="ft3()">
+      <!--6-->
+     <area shape="rect" coords="249,267,75,36"  onclick="ft6()"> 
+      <!--5-->
+     <area shape="rect" coords="274,392,70,35"  onclick="ft5()">
+      <!--2-->
+     <area shape="rect" coords="406,459,73,37"  onclick="ft2()">
+      <!--8-->
+     <area shape="rect" coords="438,339,72,37" onclick="ft8()">
+      <!--4-->
+     <area shape="rect" coords="440,195,69,34" onclick="ft4()">
+      <!--15-->
+     <area shape="rect" coords="408,78,71,37"  onclick="ft15()">
+      <!--17-->
+     <area shape="rect" coords="611,95,66,39"  onclick="ft17()">
+      <!--19-->
+     <area shape="rect" coords="686,268,71,37"  onclick="ft19()">
+      <!--7-->
+     <area shape="rect" coords="610,438,71,39"  onclick="ft7()">
+     </map>
+ </div>                         <!--Belgique-->
+<div  id="belgique">
+      <img   class="image" usemap="#Belgique" src="image/belgique.jpeg" alt="lineup de football"/>
+      <map name="Belgique" >
+     <!--1-->
+     <area shape="rect" coords="56,265,69,38" href="#" target="_self">
+      <!--5-->
+     <area shape="rect" coords="273,144,75,36" href="#" target="_self">
+      <!--2-->
+     <area shape="rect" coords="249,267,75,36" href="#" target="_self">
+      <!--19-->
+     <area shape="rect" coords="274,392,70,35" href="#" target="_self">
+      <!--7-->
+     <area shape="rect" coords="406,459,73,37" href="#" target="_self">
+      <!--8-->
+     <area shape="rect" coords="438,339,72,37" href="#"  target="_self">
+      <!--6-->
+     <area shape="rect" coords="440,195,69,34"href="#"  target="_self">
+      <!--21-->
+     <area shape="rect" coords="408,78,71,37" href="#" target="_self">
+      <!--10-->
+     <area shape="rect" coords="611,95,66,39" href="#"  target="_self">
+      <!--23-->
+     <area shape="rect" coords="686,268,71,37" href="#"  target="_self">
+      <!--10-->
+     <area shape="rect" coords="610,438,71,39" href="#"  target="_self">
+     </map>
+</div>                         <!--Canada-->
+<div  id="canada" >  
+      <img  class="image" usemap="#Canada" src="image/canada.jpeg" alt="lineup de football"/>
+      <map name="Canada" >
+     <!--18-->
+     <area shape="rect" coords="56,265,69,38" href="#" target="_self"/>
+     <!--4-->
+     <area shape="rect" coords="273,144,75,36" href="#" target="_self"/>
+     <!--5-->
+     <area shape="rect" coords="249,267,75,36" href="#" target="_self"/>
+     <!--2-->
+     <area shape="rect" coords="274,392,70,35" href="#" target="_self"/>
+     <!--11-->
+     <area shape="rect" coords="406,459,73,37" href="#" target="_self"/>
+     <!--7-->
+     <area shape="rect" coords="438,339,72,37" href="#" target="_self"/>
+     <!--13-->
+     <area shape="rect" coords="440,195,69,34" href="#"  target="_self"/>
+     <!--3-->
+     <area shape="rect" coords="408,78,71,37" href="#"  target="_self"/>
+     <!--20-->
+     <area shape="rect" coords="611,95,66,39" href="#"  target="_self"/>
+     <!--19-->
+     <area shape="rect" coords="686,268,71,37" href="#" target="_self"/>
+     <!--17-->
+     <area shape="rect" coords="610,438,71,39" href="#"  target="_self"/>
+     </map>
+</div>                         <!--Croatie-->
+ <div  id="croatie">
+      <img class="image" usemap="#Croatie" src="image/canada.jpeg" alt="lineup de football"/>
+      <map name="Croatie" >
+     <!--1-->
+     <area shape="rect" coords="56,265,69,38" href="#" target="_self"/>
+     <!--19-->
+     <area shape="rect" coords="273,144,75,36" href="#" target="_self"/>
+     <!--20-->
+     <area shape="rect" coords="249,267,75,36" href="#" target="_self"/>
+     <!--6-->
+     <area shape="rect" coords="274,392,70,35" href="#" target="_self"/>
+     <!--5-->
+     <area shape="rect" coords="406,459,73,37" href="#" target="_self"/>
+     <!--10-->
+     <area shape="rect" coords="438,339,72,37" href="#" target="_self"/>
+     <!--8-->
+     <area shape="rect" coords="440,195,69,34" href="#"  target="_self"/>
+     <!--11-->
+     <area shape="rect" coords="408,78,71,37" href="#"  target="_self"/>
+     <!--4-->
+     <area shape="rect" coords="611,95,66,39" href="#"  target="_self"/>
+     <!--9-->
+     <area shape="rect" coords="686,268,71,37" href="#" target="_self"/>
+     <!--7-->
+     <area shape="rect" coords="610,438,71,39" href="#"  target="_self"/>
+     </map>
+ </div>                           
+     
+</div> 
+    <!-----------------------------------------------------Volet 4----------------------> 
+ <div id="volet4">
+    <!------------------------------------Maroc --------------------------->
+<div   id="tabmaroc">
+                      <!--les  joeurs du maroc-->
+    <table  id="myTable"  >
+        <thead >
+            <tr>
+            <th colspan="6">maroc</th>
+        </tr>
+    </thead>
+         <tr class="mar" >
+            <th >GARDIENS</th>
+            <th>MJ</th>
+            <th>Buts</th>
+            <th>PD</th>
+             <th>Arr</th>
+             <th>PA</th>
+             <th></th>
+             <th></th>
+
+             
+         </tr>
+    
+    <tbody>
+            <tr>
+                <td >1 Yassine Bounou</td>
+                <td>5</td>
+                <td>7</td>
+                <td>3</td>
+                <td>20</td>
+                <td>2</td>
+                <td><input type="button" value="supprimer" onclick="supprimer(this)"></td>
+                <td><input type="button" value="modifier" onclick="modifier(this)"></td>
+             
+                 </tr>
+                 <tr>
+                    <td >12 Monir El Kajoui</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td><input type="button" value="supprimer" onclick="supprimer(this)"></td>
+                    <td><input type="button" value="modifier" onclick="modifier()"></td>
+                     </tr>
+                     <tr>
+                        <td >22 Ahmed Tagnouti</td>
+                        <td>10</td>
+                        <td>9</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>1</td>
+                        <td><input type="button" value="supprimer" onclick="supprimer(this)"></td>
+                        <td><input type="button" value="modifier" onclick="modifier()"></td>
+                         </tr>
+                        </tbody>
+                        <tbody>
+                         <tr class="mar">
+                            <th>DÉFENSEURS</th>
+                            <th>MJ</th>
+                            <th>Buts</th>
+                           <th>PD</th>
+                            <th>Arr</th>
+                             <th>PA</th>
+                             <th></th>
+                             <th></th>
+                        </tr> 
+                  
+    
+                        </tbody>
+             <tr>
+         <td >2 Achraf Hakimi</td>
+                         <td>10</td>
+                        <td>9</td>
+                        <td>5</td>
+                        <td>4</td>
+                        <td>1</td> 
+                        <td><input type="button" value="supprimer" onclick="supprimer(this)"></td>
+                        <td><input type="button" value="modifier" onclick="modifier(this)"></td>
+                        </tr>
+                        <tr>
+    <td >3 Noussair Mazraoui</td>
+                            <td>9</td>
+                            <td>8</td>
+                            <td>5</td>
+                            <td>9</td>
+                            <td>2</td>
+                            <td><input type="button" value="supprimer" onclick="supprimer(this)"></td>
+                            <td><input type="button" value="modifier" onclick="modifier()"></td> 
+                            </tr>
+                            <tr>
+     <td >5 Nayef Agruerd</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>13</td>
+                                <td>6</td>
+                                <td>2</td> 
+                                <td><input type="button" value="supprimer" onclick="supprimer(this)"></td>
+                                <td><input type="button" value="modifier" onclick="modifier()"></td>
+                                </tr>
+                                <tr>
+     <td >6 Romain Saiss</td>
+                                    <td>1</td>
+                                    <td>7</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>0</td>
+                                    <td><input type="button" value="supprimer" onclick="supprimer(this)"></td>
+                                    <td><input type="button" value="modifier" onclick="modifier()"></td>
+                                     
+                                    </tr>
+                                    <tr class="mar">
+                                        
+                                        <th>MILIEUX</th>
+                                        <th>MJ</th>
+                                        <th>Buts</th>
+                                       <th>PD</th>
+                                        <th>Arr</th>
+                                         <th>PA</th >
+                                            <th></th>
+                                            <th></th>
+                                    </tr> 
+                                    <tr>
+    <td >4 Sofiane Amrabat</td>
+                                        <td>6</td>
+                                        <td>8</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td>10</td> 
+                                        <td><input type="button" value="supprimer" onclick="supprimer(this)"></td>
+                                        <td><input type="button" value="modifier" onclick="modifier()"></td>
+                                        </tr>
+                                       
+                                            <tr>
+                      <td >8 Azzedine Ounahi</td>
+                                                <td>8</td>
+                                                <td>8</td>
+                                                <td>5</td>
+                                                <td>4</td>
+                                                <td>2</td> 
+                                                <td><input type="button" value="supprimer" onclick="supprimer(this)"></td>
+                                                <td><input type="button" value="modifier" onclick="modifier()"></td>
+                                                </tr>
+                                                <tr>
+                       <td>15 Selim Amallah</td>
+                                                    <td>1</td>
+                                                    <td>4</td>
+                                                    <td>6</td>
+                                                    <td>4</td>
+                                                    <td>6</td> 
+                                                    <td><input type="button" value="supprimer" onclick="supprimer(this)"></td>
+                                                    <td><input type="button" value="modifier" onclick="modifier()"></td>
+                                                    </tr>
+                                                   
+                                                   
+                                    <tr class="mar">
+                                 <th>ATTAQUANTS</th>
+                                <th>MJ</th>                                 <th>Buts</th>
+                                     <th>PD</th>
+                                    <th>Arr</th>
+                                         <th>PA</th>
+                                         <th></th>
+                                         <th></th>
+                                            </tr> 
+    
+             <tbody>
+                    <tr>          
+                            <td >7 Hakim Ziyech</td>
+                            <td>10</td>
+                            <td>15</td>
+                            <td>16</td>
+                         <td>0</td>
+                        <td>1</td>
+                        <td><input type="button" value="supprimer" onclick="supprimer(this)"></td>
+                        <td><input type="button" value="modifier" onclick="modifier()"></td> 
+                    </tr>
+                   <tr>
+                             <td>19 Youssef En Nesyri</td>
+                                    <td>10</td>
+                                <td>2</td>
+                            <td>3</td>
+                             <td>4</td>
+                             <td>8</td> 
+                             <td><input type="button" value="supprimer" onclick="supprimer(this)"></td>
+                             <td><input type="button" value="modifier" onclick="modifier()"></td>
+                            </tr>
+                        <tr>
+                             <td >17 Sofiane Boufal</td>
+                                  <td>10</td>
+                                  <td>6</td>
+                                     <td>7</td>
+                                    <td>7</td>
+                                <td>6</td> 
+                                <td><input type="button" value="supprimer" onclick="supprimer(this)"></td>
+                                <td><input type="button" value="modifier" onclick="modifier()"></td>
+                             </tr> 
+                </tbody>    
+                                                
+    </table>
+    <button type="button" id="btn" > Ajouter</button>
+</div>
+
+
+    <!---------------------------------Canada------------------------------------------------------->
+    <div   id="tabcanada">
+        <!--les  joeurs du canada-->
+        <table  >
+            <thead >
+                <tr>
+                <th colspan="6">Canada</th>
+            </tr>
+        </thead>
+             <tr class="can" >
+                <th >GARDIENS</th>
+                <th>MJ</th>
+                <th>Buts</th>
+                <th>PD</th>
+                 <th>Arr</th>
+                 <th>PA</th>
+             </tr>
+           
+        <tbody>
+                <tr>
+                    <td >1 Dayne ST.Clair</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                     </tr>
+                     <tr>
+                        <td >16 James Pantemis</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                         </tr>
+                         <tr>
+                            <td >18 Milan Borjan</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                             </tr>
+                            </tbody>
+                            <tbody>
+                             <tr class="can">
+                                <th>DÉFENSEURS</th>
+                                <th>MJ</th>
+                                <th>Buts</th>
+                               <th>PD</th>
+                                <th>Arr</th>
+                                 <th>PA</th>
+                            </tr> 
+                      
+        
+                            </tbody>
+                 <tr>
+             <td >2 Alistair Johnston</td>
+                             <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td> 
+                            </tr>
+                            <tr>
+        <td >3 Sam Adehugbe</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td> 
+                                </tr>
+                                <tr>
+         <td >4 Kamal Miller</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td> 
+                                    </tr>
+                                    <tr>
+         <td >5 Steven Vitoria</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                         <td></td>
+                                        </tr>
+            <tr class="can">
+                <th>MILIEUX</th>
+                    <th>MJ</th>
+                    <th>Buts</th>
+                    <th>PD</th>
+                    <th>Arr</th>
+                    <th>PA</th>
+                     </tr> 
+            <tr>
+         <td >7 Stephen Eustaquio</td>
+                 <td>0</td>
+              <td>0</td>
+             <td>0</td>
+         <td>0</td>
+         <td>0</td> 
+         </tr>
+          <tr>
+         <td >10 Junior Hoilett</td>
+             <td>0</td>
+        <td>0</td>
+         <td>0</td>
+            <td>0</td>
+         <td>0</td> 
+         </tr>
+             <tr>
+         <td>13 Atiba Hutchinson</td>
+                 <td>0</td>
+                    <td>0</td>
+                 <td>0</td>
+                 <td>0</td>
+              <td>0</td> 
+             </tr>
+               <tr class="can">
+                 <th>ATTAQUANTS</th>
+     <th>MJ</th>                                                 <th>Buts</th>
+            <th>PD</th>
+                <th>Arr</th>
+              <th>PA</th>
+               </tr>  <tbody>
+                    <tr>          
+         <td >17 Cyle Larin </td>
+              <td>0</td>
+               <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td> 
+                 </tr>
+            <tr>
+                <td>19 Alphonso Davies </td>
+                 <td>0</td>
+                 <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td> 
+                    </tr>
+             <tr>
+                 <td >20 Jonathan David</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td> 
+            </tr>
+        </tbody>                
+        </table>
+    </div>
+    
+    <div  id="tabbelgique">
+        <!--les  joeurs du belgique-->
+        <table  >
+            <thead >
+                <tr>
+                <th colspan="6">Belgique</th>
+            </tr>
+        </thead>
+             <tr class="bel" >
+                <th >GARDIENS</th>
+                <th>MJ</th>
+                <th>Buts</th>
+                <th>PD</th>
+                 <th>Arr</th>
+                 <th>PA</th>
+             </tr>
+            
+        <tbody>
+                <tr>
+                    <td >1 Thibaut Courtois</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                     </tr>
+                     <tr>
+                        <td >Simon Mignolet </td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                         </tr>
+                         <tr>
+                            <td >Koen Casteels</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                             </tr>
+                            </tbody>
+                            <tbody>
+                             <tr class="bel">
+                                <th>DÉFENSEURS</th>
+                                <th>MJ</th>
+                                <th>Buts</th>
+                               <th>PD</th>
+                                <th>Arr</th>
+                                 <th>PA</th>
+                            </tr> 
+                      </tbody>
+                 <tr>
+             <td >2 Toby Alderweireld</td>
+                             <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td> 
+                            </tr>
+                            <tr>
+        <td >5 Jan Vertonghen</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td> 
+                                </tr>
+                                <tr>
+         <td >19  Leander Dendoncker</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td> 
+                                    </tr>
+               
+                            <tr class="bel">
+                                            
+                             <th>MILIEUX</th>
+                             <th>MJ</th>
+                            <th>Buts</th>
+                                <th>PD</th>
+                                <th>Arr</th>
+                                <th>PA</th>
+                            </tr> 
+                                        <tr>
+        <td >8 Youri Tielemans</td>
+             <td>0</td>
+             <td>0</td>
+            <td>0</td>
+            <td>0</td>
+                <td>0</td> 
+                 </tr>
+             <tr>
+         <td >6 Axel Witsel </td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td> 
+                                                    </tr>
+                                                    <tr>
+         <td>21 Timothy Castagne </td>
+                <td>0</td>
+             <td>0</td>
+             <td>0</td>
+             <td>0</td>
+            <td>0</td> 
+        </tr>
+        <tr>
+         <td>7 Kevin DE BRUYNE
+             </td>
+                <td>0</td>
+             <td>0</td>
+             <td>0</td>
+             <td>0</td>
+            <td>0</td> 
+        </tr>
+             <tr class="bel">
+        <th>ATTAQUANTS</th>
+        <th>MJ</th>                                        <th>Buts</th>
+     <th>PD</th>
+        <th>Arr</th>
+            <th>PA</th>
+         </tr> 
+        <tbody>
+         <tr>          
+        <td >10 Eden  HAZARD</td>
+         <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+         <td>0</td> 
+         </tr>
+        <tr>
+        <td>23 Michy  BATSHUAYI</td>
+            <td>0</td>
+            <td>0</td>
+             <td>0</td>
+         <td>0</td>
+        <td>0</td> 
+        </tr>
+            <tr>
+              <td >16 Thorgan HAZARD </td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td> 
+                <td>0</td> 
+    
+            </tbody>                                </tr>
+        </table>
+    </div>
+    <div  id="tabcroatie">
+            <!--les  joeurs du croatie-->
+            <table   >
+                <thead >
+                    <tr>
+                    <th colspan="6">Croatie</th>
+                </tr>
+            </thead>
+                 <tr class="crt" >
+                    <th >GARDIENS</th>
+                    <th>MJ</th>
+                    <th>Buts</th>
+                    <th>PD</th>
+                     <th>Arr</th>
+                     <th>PA</th>
+                 </tr>
+               
+            <tbody>
+                    <tr>
+            <td >1 Dominik LIVAKOVIC<td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                         </tr>
+            <tr>
+          <td >12 Ivo GRBIC </td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+            </tr>
+             <tr>
+                 <td >23 Ivica IVUSIC</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+             </tr>
+                                </tbody>
+                                <tbody>
+                                 <tr class="crt">
+                                    <th>DÉFENSEURS</th>
+                                    <th>MJ</th>
+                                    <th>Buts</th>
+                                   <th>PD</th>
+                                    <th>Arr</th>
+                                     <th>PA</th>
+                                </tr> 
+                          
+            
+                                </tbody>
+                     <tr>
+                 <td >19 Borna SOSA</td>
+                                 <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td> 
+                                </tr>
+                                <tr>
+            <td >20 Josko GVARDIOL </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td> 
+                                    </tr>
+                                    <tr>
+             <td >6 Dejan  LOVREN </td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td> 
+                                        </tr>
+                                        <tr>
+             <td >5 Martin  ERLIC</td>
+                    <td>0</td>
+                     <td>0</td>
+                     <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                     <td></td>
+                     </tr>
+                <tr class="crt">
+                    <th>MILIEUX</th>
+                        <th>MJ</th>
+                        <th>Buts</th>
+                        <th>PD</th>
+                        <th>Arr</th>
+                        <th>PA</th>
+                         </tr> 
+                <tr>
+             <td >10 Luka MODRIC </td>
+                     <td>0</td>
+                  <td>0</td>
+                 <td>0</td>
+             <td>0</td>
+             <td>0</td> 
+             </tr>
+              <tr>
+             <td >8 Mateo KOVACIC</td>
+                 <td>0</td>
+            <td>0</td>
+             <td>0</td>
+                <td>0</td>
+             <td>0</td> 
+             </tr>
+                 <tr>
+             <td>11 Marcelo BROZOVIC </td>
+                     <td>0</td>
+                        <td>0</td>
+                     <td>0</td>
+                     <td>0</td>
+                  <td>0</td> 
+                 </tr>
+                   <tr class="crt">
+                     <th>ATTAQUANTS</th>
+         <th>MJ</th>                                                 <th>Buts</th>
+                <th>PD</th>
+                    <th>Arr</th>
+                  <th>PA</th>
+        </tr>  <tbody>
+        <tr>          
+             <td >4 Ivan  PERISIC </td>
+                  <td>0</td>
+                   <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td> 
+        </tr>
+                <tr>
+                    <td>9 Andrej KRAMARIC </td>
+                     <td>0</td>
+                     <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td> 
+                        </tr>
+                 <tr>
+                     <td >7 Lovro MAJER </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td> 
+                </tr>
+            </tbody>                
+            </table>
+   </div> 
+</div>  
+<!--------------------------formulaire d'ajout---------------------------->  
+<div id="tabb">
+    <form  >
+      
+    Position :<input type="text" name="Gardiens" placeholder="enter the type" id="gr"><br>
+    MJ : <input  type="text" name="Mj" placeholder="enter mj" id="mj"><br>
+    Buts : <input type="text" name="Buts" placeholder="enter Buts" id="buts"><br>
+    DP : <input type="text" name="dp" placeholder="enter dp" id="dp"><br>
+    Arr :  <input type="text" name="arr" placeholder="enter arr " id="arr"><br>
+    PA : <input type="text" name="pa" placeholder="enter pa"  id="pa"><br>
+    </form>
+    <button type="submit" onclick="Ajouter()" >ADD</button>
+    </div>
+
+<!--volet5-->
+<div  id="vol5" class="actualite">
+ <div    class="contenue">
+    <div ><!--premier actue-->
+       <a href="https://www.lemonde.fr/football/article/2022/11/25/coupe-du-monde-2022-neymar-victime-d-une-entorse-sera-forfait-contre-la-suisse_6151644_1616938.html" target="_blank"> 
+        <img src="image/image1.jpg"></a>
+        <strong> Neymar,victime d’une entorse, sera forfait contre la Suisse</strong>
+    </div>
+     <div><!--deuxieme actue-->
+        <a href="https://www.lemonde.fr/m-le-mag/article/2022/11/25/comme-dua-lipa-qui-a-snobe-le-qatar-ces-stars-ont-boude-les-cachets_6151632_4500055.html" target="_blank"> 
+            <img src="image/image2.jpg">
+    
+        </a>
+        <strong> Comme Dua Lipa qui a snobé le Qatar, ces stars ont boudé les cachets</strong>
+    </div>
+    <div><!--3eme actue-->
+        <a href="https://www.lemonde.fr/football/article/2022/11/23/coupe-du-monde-2022-le-geste-symbolique-des-allemands-contre-l-attitude-de-la-fifa_6151282_1616938.html" target="_blank">
+            <img src="image/image3.jpg">
+        </a>
+        <strong> se couvrir la bouche sur la photo d’équipe, le geste symbolique des Allemands contre l’attitude de la FIFA</strong>
+    </div>
+    <div><!--4eme actue-->
+        <a href="https://www.lemonde.fr/football/article/2022/11/23/coupe-du-monde-2022-lionel-messi-et-cristiano-ronaldo-la-derniere-chance-de-deux-legendes_6151166_1616938.html" target="_blank">
+            <img src="image/image4.jpeg">
+        </a>
+        <strong> Lionel Messi et Cristiano Ronaldo, la dernière chance de deux légendes</strong>
+    </div>
+    <div><!--5eme actue-->
+        <a href="https://www.lemonde.fr/football/article/2022/11/22/coupe-du-monde-2022-l-argentine-de-messi-surprise-par-l-arabie-saoudite-pour-son-entree-en-lice_6151091_1616938.html" target="_blank">
+            <img src="image/image.jpg">
+        </a>
+        <strong>l’Argentine de Messi surprise par l’Arabie saoudite pour son entrée en lice</strong>
+    </div>
+    <div><!--5eme actue-->
+        <a href="https://www.lemonde.fr/football/article/2022/11/21/un-ecran-plat-plante-dans-le-sable-la-coupe-du-monde-a-la-mode-qatarie_6150965_1616938.html" target="_blank">
+            <img src="image/image5.jpg">
+        </a>
+        <strong>Coupe du monde à la mode qatarie : un écran plat planté dans le sable</strong>
+    </div>
+    <div><!--6eme actue-->
+        <a href="https://www.lemonde.fr/coupe-du-monde-2022/article/2022/11/21/coupe-du-monde-2022-sept-selections-europeennes-renoncent-au-brassard-inclusif-one-love_6150884_6101826.html" target="_blank">
+            <img src="image/image6.jpg">
+        </a>
+        <strong>il n’y aura pas de brassard arc-en-ciel sur les terrains qataris</strong>
+    </div>
+    <div><!--7eme actue-->
+        <a href="https://www.lemonde.fr/football/article/2022/11/19/coupe-du-monde-au-qatar-le-virulent-plaidoyer-de-gianni-infantino-le-president-de-la-fifa_6150677_1616938.html" target="_blank">
+            <img src="image/image7.jpg">
+        </a>
+        <strong>le virulent plaidoyer de Gianni Infantino, le président de la FIFA</strong>
+    </div>
+ </div>
+    
+</div>
+
+  <!-- ----------------------------------------fiche techcnique------------->
+<div id="ft2">
+    <div class="ft1">
+              <h1>Achraf Hakimi</h1><br>
+              <img src="image/hkm.jpg" class="hkm"><br>
+              <p><strong>Pays :</strong>Maroc<br><br>
+                 <strong>Né le :</strong> 04 novembre 1998 , à Madrid (ESP)<br><br>
+                 <strong>Taille :</strong> 1m81<br><br>
+                 <strong>Poids :</strong> 69 kg<br><br>
+                 <strong>Poste :</strong> Défenseur<br><br>    
+                 <strong>Buts :</strong> 8</p>   
+    </div>
+</div>
+<div id="ft1">
+<div class="ft1">
+    <h1>Yassine Bounou</h1><br>
+    <img  src="image/bn.jpg" class="hkm"><br>
+    <p><strong>Pays :</strong>Maroc<br><br>
+       <strong>Né le :</strong> 05 avril 1991 , à Montréal (CAN)<br><br>
+       <strong>Taille :</strong> 1m92<br><br>
+       <strong>Poids :</strong> 78 kg<br><br>
+       <strong>Poste :</strong> Gardien<br><br>    
+       <strong>Buts :</strong> 5</p>   
+   </div>
+</div>
+<div id="ft3">
+   <div class="ft1">
+      <h1>Mazraoui Noussair</h1><br>
+     <img src="image/mazraouii.png" class="hkm"><br>
+     <p><strong>Pays :</strong>Maroc<br><br>
+      <strong>Né le :</strong> 05 avril 1995 , casablanca<br><br>
+      <strong>Taille :</strong> 1m86<br><br>
+      <strong>Poids :</strong> 70 kg<br><br>
+      <strong>Poste :</strong>  Défenseur<br><br>    
+      <strong>Buts :</strong> 7</p>   
+  </div>
+</div>
+<div id="ft8">
+<div class="ft1">
+    <h1>Azzedine Ounahi</h1><br>
+   <img src="image/azd.jpg" class="hkm"><br>
+   <p><strong>Pays :</strong>Maroc<br><br>
+      <strong>Né le :</strong> 05 avril 1995 , casablanca<br><br>
+      <strong>Taille :</strong> 1m92<br><br>
+      <strong>Poids :</strong> 70 kg<br><br>
+      <strong>Poste :</strong> Milieu  <br><br>    
+      <strong>Buts :</strong> 3</p>   
+  </div>
+</div>
+<div id="ft6">
+    <div class="ft1">
+        <h1>Romain Saiss</h1><br>
+       <img src="image/romain.jpg" class="hkm"><br>
+       <p><strong>Pays :</strong>Maroc<br><br>
+          <strong>Né le :</strong> 05 avril 1995 , casablanca<br><br>
+          <strong>Taille :</strong> 1m92<br><br>
+          <strong>Poids :</strong> 70 kg<br><br>
+          <strong>Poste :</strong> defenseurs<br><br>    
+          <strong>Buts :</strong> 3</p>   
+      </div>
+</div>
+<div id="ft5">
+    <div class="ft1">
+        <h1>Nayef Agruerd</h1><br>
+       <img  src="image/nayef.jpg" class="hkm"><br>
+       <p><strong>Pays :</strong>Maroc<br><br>
+          <strong>Né le :</strong> 05 avril 1995 , casablanca<br><br>
+          <strong>Taille :</strong> 1m92<br><br>
+          <strong>Poids :</strong> 70 kg<br><br>
+          <strong>Poste :</strong>Attaquant <br><br>    
+          <strong>Buts :</strong> 3</p>   
+      </div>
+</div>
+<div id="ft19">
+    <div class="ft1">
+        <h1>Youssef En Nesyei</h1><br>
+       <img  src="image/yousfn.jpg" class="hkm"><br>
+       <p><strong>Pays :</strong>Maroc<br><br>
+          <strong>Né le :</strong> 05 avril 1995 , casablanca<br><br>
+          <strong>Taille :</strong> 1m92<br><br>
+          <strong>Poids :</strong> 70 kg<br><br>
+          <strong>Poste :</strong> Gardien <br><br>    
+          <strong>Buts :</strong> 3</p>   
+      </div>
+</div>
+<div id="ft7">
+    <div class="ft1">
+        <h1>Hakim Ziyech</h1><br>
+       <img src="image/ab.jpg" class="hkm"><br>
+       <p><strong>Pays :</strong>Maroc<br><br>
+          <strong>Né le :</strong> 05 avril 1995 , casablanca<br><br>
+          <strong>Taille :</strong> 1m92<br><br>
+          <strong>Poids :</strong> 70 kg<br><br>
+          <strong>Poste :</strong> Attaquant <br><br>    
+          <strong>Buts :</strong> 3</p>   
+      </div>
+</div>
+<div id="ft4">
+    <div class="ft1">
+        <h1>Selim Amallah</h1><br>
+       <img  src="image/amlh.jpg" class="hkm"><br>
+       <p><strong>Pays :</strong>Maroc<br><br>
+          <strong>Né le :</strong> 05 avril 1995 , casablanca<br><br>
+          <strong>Taille :</strong> 1m92<br><br>
+          <strong>Poids :</strong> 70 kg<br><br>
+          <strong>Poste :</strong> Attaquant  <br><br>    
+          <strong>Buts :</strong> 3</p>   
+      </div>
+</div>
+<div id="ft17">
+    <div class="ft1">
+        <h1>Soufiane Amrabat</h1><br>
+       <img src="image/soufianeam.jpg" class="hkm"><br>
+       <p><strong>Pays :</strong>Maroc<br><br>
+          <strong>Né le :</strong> 05 avril 1995 , casablanca<br><br>
+          <strong>Taille :</strong> 1m92<br><br>
+          <strong>Poids :</strong> 70 kg<br><br>
+          <strong>Poste :</strong> Milieu <br><br>    
+          <strong>Buts :</strong> 3</p>   
+      </div>
+</div>
+<div id="ft15">
+    <div class="ft1">
+        <h1>Ahmed Tagnouti</h1><br>
+       <img src="image/ahmd.jpg" class="hkm"><br>
+       <p><strong>Pays :</strong>Maroc<br><br>
+          <strong>Né le :</strong> 05 avril 1995 , casablanca<br><br>
+          <strong>Taille :</strong> 1m92<br><br>
+          <strong>Poids :</strong> 70 kg<br><br>
+          <strong>Poste :</strong> Gardien <br><br>    
+          <strong>Buts :</strong> 3</p>   
+      </div>
+</div>
+<!--------------------------------les classement-------------------------------------------->
+<div  id="cl5" class="classement">
+    <h1 id ="classement">Les Classements</h1>
+    <div >
+         <!-- groupe 1-->
+        <table class="cls">
+            <thead>
+                <tr>
+                <th colspan="5">Groupe A</th>
+            
+                </tr>
+            </thead>
+           
+            <tbody>
+                <tr>
+                    <th>Team</th>
+                    <th>W</th>
+                    <th>L</th>
+                    <th>D</th>
+                    <th>Pts</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag maroc.png" ></th>
+                    <th>2</th>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag canada.png" alt=""></th>
+                    <th>2</th>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>2</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag belg.png" alt=""></th>
+                    <th>2</th>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag belg.png" alt=""></th>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>1</th>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+     <!-- groupe 2-->
+    <div> 
+        <table class="cls1">
+            <thead>
+                <tr>
+                    <th colspan="5">Groupe B</th>
+                  
+                </tr>
+                
+                
+            </thead>
+            
+               
+            <tbody>
+                <tr>
+                    <th>team</th>
+                    <th>W</th>
+                    <th>L</th>
+                    <th>D</th>
+                    <th>Pts</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag france.png" alt=""></th>
+                    <th>0</th>
+                    <th>2</th>
+                    <th>1</th>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag s.png" alt=""></th>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>2</th>
+                    <th>2</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag iran.png" alt=""></th>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag tunisie.png" alt=""></th>
+                    <th>3</th>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>4</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div >
+         <!--for group 3-->
+         <table class="cls2">
+    
+            <thead>
+                
+                <tr>
+                    <th>groupe C</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            
+                
+            </thead>
+            
+                
+            <tbody>
+                <tr>
+                    <th>team</th>
+                    <th>W</th>
+                    <th>L</th>
+                    <th>D</th>
+                    <th>Pts</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag arge.png" alt=""></th>
+                    <th>2</th>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag mexique.jpeg" alt=""></th>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag senegal.png" alt=""></th>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>3</th>
+                    <th>4</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag qatar.jpeg" alt=""></th>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>1</th>
+                </tr>
+                
+            </tbody>
+    
+        </table>
+    </div>
+    <!-- groupe 4-->
+    <div>
+        <table class="cls3">
+    
+            <thead>
+                <tr>
+                    <th colspan="5">Groupe D</th>
+                   
+                </tr>
+                
+            </thead>
+            
+                
+            <tbody>
+                <tr>
+                    <th>team</th>
+                    <th>W</th>
+                    <th>L</th>
+                    <th>D</th>
+                    <th>Pts</th>
+                </tr>
+                <tr>
+                    <th><img src="image/drp anglettere.png" alt=""></th>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag almagne.png" ></th>
+                    <th>0</th>
+                    <th>2</th>
+                    <th>1</th>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag p.galees.png" ></th>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>2</th>
+                </tr>
+                <tr>
+                    <th><img src="image/flag costa rica.png" ></th>
+                    <th>1</th>
+                    <th>1</th>
+                    <th>1</th>
+                    <th>3</th>
+                </tr>
+                
+            </tbody>
+    
+        </table>
+    </div>
+
+</div>
+<!------------------------------------Les matches--------------------------------------------------------->
+<div>
+    <h1>Les Matches</h1>
+   <div  id="Les Matches"class="matches">
+    <h2>Les Matches  </h2> <br> 
+    <table  class="tabmatche"> 
+        <tr>
+           <td><img src="image/flag maroc.png"><br>Maroc</td>
+           <td><span>0  -  0</span></td>
+           <td><img src="image/drp croitia.png"><br>Croitia</td>
+        </tr>
+        <tr>
+           <td><img src="image/flag almagne.png"><br>Allemagne</td>
+           <td><span>1  -  0</span></td>
+           <td><img  src="image/flag canada.png"><br>canada</td>
+        </tr>
+        <tr>
+           <td><img  src="image/flag japon.jpeg"><br><br>japon</td>
+           <td><span>2  -  0</span></td>
+           <td><img src="image/flag belg.png"><br>belgique</td>
+        </tr>
+        <tr>
+           <td><img  src="image/flag belg.png"><br>Espagne</td>
+           <td><span>7  -  1</span></td>
+           <td><img  src="image/flag costa rica.png"><br>Costa Rica</td>
+        </tr>
+         <tr>
+           <td><img  src="image/flag s.png"><br>Danemark</td>
+           <td><span>0  -  0</span></td>
+           <td><img src="image/flag tunisie.png"><br>Tunsie</td>
+        </tr>
+        <tr>
+           <td><img  src="image/flag france.png"><br>France</td>
+           <td><span>4  -  0</span></td>
+           <td><img  src="image/flag s.png"><br>Australia</td>
+        </tr>
+        <tr>
+           <td><img  src="image/flag maroc.png"><br>Maroc</td>
+           <td><span>2  -  0</span></td>
+           <td><img src="image/flag belg.png"><br>Belgique</td>
+        </tr>
+       </table>
+
+ </div>
+
+ </div>
+
+<!---------------------------------------------volet 6-->
+<footer class="footer">
+    <img src="image/image.jpeg" alt="logo world cup">
+    <div class="footer-left"> <!-- partie de navigation-->
+        <a  href="#background"> Accueil</a> 
+        |
+        <a href="histoire.html" target="_blank">Histoire</a>
+        |
+        <a  onclick="actualite()">News</a>
+        |
+        <a >Contacts</a>
+
+        <br><br>
+       <span class="version" > Copy right &copy;2022 . All rights reserved.  </span> <!--version web site-->
+    </div>
+    <div class="footer-center"><!-- partie de contacts-->
+        <a href="https://www.facebook.com/fifaworldcup/" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/fifaworldcup/" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/FIFAWorldCup" target="_blank">  <i class="fa-brands fa-twitter"></i>  </a>
+        <a href="https://www.youtube.com/@fifa" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+        
+    </div>
+    <div class="app"> <!-- partie de telechargemnt-->
+        <a href="https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile&gl=us" target="_blank"><img src="image/playstore.jpg"></a>
+        <a href="https://apps.apple.com/gb/app/fifa-football/id1094930513" target="_blank"><img src="image/appstore.jpg"></a>
+
+    </div>
+     <div class="footer-right"><!-- partie de publicité-->
+      <a href="https://www.adidas.fr/" target="_blank">  <img src="image/adidas.jpeg" alt="adidas logo"></a>
+      <a href="https://www.visa.fr/" target="_blank">  <img src="image/visa.png" alt="visa alogo"></a>
+     <br>
+       <a href="https://www.coca-cola.com/" target="_blank"> <img class="image3" src="image/cocacola.png" alt="cocacola logo"></a>
+     <br>
+       <a href="https://www.emirates.com/ma/french/" target="_blank"> <img src="image/airway.png" alt="airway logo"> </a>
+        <a href="https://www.kia.com/ma/main.html" target="_blank"><img src="image/kia.png" alt=" kia logo "></a>
+     <br>
+    
+    </div>
+
+</footer>
+
+    <script src="project.js"></script>
+</body>
+</html>
